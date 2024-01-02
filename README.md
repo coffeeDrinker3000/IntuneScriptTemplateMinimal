@@ -11,7 +11,7 @@ Add a single string to add to the log file.
 -Level (int 1-3)
 Set the log level 1 = Information, 2 = Warning, 3 = Error. Default is: 1
 
--ExceptionObject <System.Management.Automation.ErrorRecord>
+(outdated) -ExceptionObject <System.Management.Automation.ErrorRecord>
 Include information from an error by using try-catch. Includes the error message and category.
 
 -Terminate (switch)
