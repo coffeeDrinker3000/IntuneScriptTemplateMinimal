@@ -61,7 +61,7 @@ AddLog "FIRSTRUN"
 # --> begin your script here <--
 
 # use AddLog "<string>" to create log information
-# use AddLog -Message "<log message>" -Level <1-3> (-ExceptionObject $Error[0]) to add error logs
+# use AddLog -Message "<log message>" -Level <1-3> (-UseLastError) to add error logs
 # $exitCode = 0 -> all fine $exitCode = 1 -> fix required
 # use AddLog "<string>" -Terminate to message Intune the script failed (no fix)
 
